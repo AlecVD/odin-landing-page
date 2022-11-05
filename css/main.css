@@ -42,8 +42,22 @@ body{
     display: flex;
     flex-direction:column;
     margin:auto;
+    text-align:left;
+    padding-left:5%;
+}
+.hero-element p{
+    font-size:18px;
+    color:#E5E7EB;
 }
 #hero-image{
     width:80%;
     height:80%;
+}
+#hero-logo{
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 24px;
+    width:max-content;
+    padding:2px 20px;
+    text-decoration: none;
 }
