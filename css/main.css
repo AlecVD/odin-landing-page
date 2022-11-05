@@ -50,8 +50,7 @@ body{
     color:#E5E7EB;
 }
 #hero-image{
-    width:80%;
-    height:80%;
+    width:75%;
 }
 #hero-logo{
     background-color: #3882f6;
@@ -59,5 +58,18 @@ body{
     font-size: 24px;
     width:max-content;
     padding:2px 20px;
-    text-decoration: none;
+}
+.information{
+    display:flex;
+    flex-direction: column;
+}
+#information-section{
+    display: flex;
+    flex-direction:row;
+    margin:auto;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#information-section img{
+    width:64px;
 }
