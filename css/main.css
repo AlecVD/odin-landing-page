@@ -63,13 +63,11 @@ body{
     display:flex;
     flex-direction: column;
 }
-#information-section{
+.information-list img{
+    width:64px;
+}
+.information-list{
     display: flex;
     flex-direction:row;
-    margin:auto;
-    flex-wrap:wrap;
-    justify-content: space-around;
-}
-#information-section img{
-    width:64px;
+    justify-content: space-evenly;
 }
