@@ -100,3 +100,9 @@ body{
     font-weight:bold;
     text-align: end;
 }
+#footy{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top:24px;
+    padding-bottom:24px;
+}
