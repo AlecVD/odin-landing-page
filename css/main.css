@@ -34,6 +34,7 @@ body{
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
+    padding-bottom:20px
 }
 .hero h1{
     font-size: 48px;
@@ -62,12 +63,40 @@ body{
 .information{
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 .information-list img{
-    width:64px;
+    width:128px;
+    border:5px solid #3882f6;
+    border-radius:5px;
 }
 .information-list{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    font-size:18px;
+    color:#E5E7EB;
+    width:60%;
+}
+#quote-box{
+    background-color: #E5E7EB;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+#quote-section{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:auto;
+}
+#quote{
+    font-size:36px;
+    font-style:italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+#quote-author{
+    font-size:24px;
+    font-weight:bold;
+    text-align: end;
 }
